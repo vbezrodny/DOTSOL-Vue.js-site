@@ -8,6 +8,9 @@
 .projects {
   margin-bottom: 100px;
 }
+.projects .row {
+  row-gap: 24px;
+}
 .projects .projects__card img {
   border-radius: 15px;
   margin-bottom: 12px;
