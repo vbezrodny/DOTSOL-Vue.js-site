@@ -1,0 +1,40 @@
+.footer__top{
+    margin-bottom: 74px;
+
+    .row {
+        @media screen and (max-width: 991px) {
+            align-items: center;
+            row-gap: 24px;
+        }
+    }
+
+    img {
+        @media screen and (max-width: 991px) {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .footer__links{
+        text-align: center;
+
+        .footer__links-item-link{
+            font-size: 24px;
+            color: var(--dark);
+        }
+    }
+
+    .footer__info{
+        text-align: right;
+
+        @media screen and (max-width: 991px) {
+            text-align: center;
+        }
+    }
+}
+
+.footer__copyright{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+}

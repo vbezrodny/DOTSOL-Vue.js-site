@@ -1,0 +1,25 @@
+@import "./base.css";
+@import "./navigation.css";
+@import "./flash-cards.css";
+@import "./promo.css";
+@import "./tech.css";
+@import "./feedback.css";
+@import "./footer.css";
+.projects {
+  margin-bottom: 100px;
+}
+.projects .projects__card img {
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+.projects .projects__card a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFA239;
+  text-decoration: none;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.projects .projects__card a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
